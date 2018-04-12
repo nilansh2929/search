@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.search_div {
+  text-align: center;
+  width: 60%;
+  margin: 30px auto;
+  font-size: 16px;
+}
+
+.label_div {
+    width: 10%;
+}
+
+.search_input {
+  width: 40%;
+  height: 40px;
+  font-size: 16px;
+  margin: 0px 10px;
+  padding-left: 5px;
+}
+
+.search_box {
+  position: relative;
+  left: 26px;
+  height: 350px;
+  overflow: scroll;
+  width: 40.5%;
+  margin: auto;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 1px 4px #888;
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.user_details {
+  width: 100%;
+  height: max-content;
+  border-bottom: 1px solid lightgrey;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px;
+}
+
+.user_details ul , .user_details h4 {
+  margin: 2px 0px;
+}
+
+.blue_span {
+  color : blue;
+}
+
+.selected {
+  background-color: lightyellow;
+}
